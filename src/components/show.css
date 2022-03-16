@@ -1,0 +1,13 @@
+body{
+    color: rgb(29, 29, 29);
+}
+.container{
+
+    display:grid;
+
+    flex-direction: column;
+    width: 25%;
+    box-sizing: border-box;
+    height: 25%;
+    padding: 10px;
+}
