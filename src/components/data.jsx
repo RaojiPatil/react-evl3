@@ -1,5 +1,6 @@
 import React from 'react'
-import './show.css'
+import './data.css'
+
 const Show = (props) => {
     let data = props.movie
   return (
