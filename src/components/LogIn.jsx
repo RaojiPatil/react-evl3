@@ -6,7 +6,7 @@ import './color.css';
 
 const genres = ["Comedy", "Thriller", "Drama", "Documentary", "Children"];
 
- const MoviesDashboard = () => {
+ const LogIn = () => {
   const [list,setList] =useState([])
   const [check,setCheck]= useState('')
 
@@ -44,4 +44,4 @@ const handleFilter = (e)=>{
   );
 };
 
-export default MoviesDashboard
+export default LogIn

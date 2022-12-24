@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import About from "./About";
-import MoviesDashboard from "./MoviesDashboard";
+import Product from "./Product";
+import LogIn from "./LogIn";
 import { Navbar } from "./Navbar";
 
 
@@ -14,8 +14,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path="About" element={<About />} />
-          <Route path="MoviesDashboard" element={<MoviesDashboard />} />
+          <Route path="Product" element={<Product />} />
+          <Route path="LogIn" element={<LogIn />} />
         </Route>
       </Routes>
     </BrowserRouter>
